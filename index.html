@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IG.jpg" type="image/x-icon">
+    <meta name="description"
+        content="We aim to provide valuable and useful information about city klinik where we offer rich and diverse content that meets the needs of  our visitors and helps them better understand the topic">
+    <meta name="outhor" content="Engineer Mahmoud Ebrahim">
+    <meta name="keywords" content="Html,css,JS,Coding Html and css">
+    <title>city klinik</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+</head>
+<style>
+    #home {
+        background-image: url("IG.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 30vh;
+    }
+
+    /* service */
+    .service-card {
+        border: none;
+        border-radius: 12px;
+        transition: 0.3s ease;
+        background: white;
+    }
+
+    .service-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    .service-card i {
+        font-size: 40px;
+        color: #0d6efd;
+    }
+</style>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <div class="container">
+            <h1 class="display-3 text-danger fw-bolder">Klinik</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li><a href="#home"
+                            class="nav-link text-uppercase active text-light fw-bolder  btn btn-outline-danger">home</a>
+                    </li>
+                    <li><a href="#about"
+                            class="nav-link text-uppercase text-light fw-bolder btn btn-outline-danger">about</a></li>
+                    <li><a href="#servie"
+                            class="nav-link text-uppercase text-light fw-bolder btn btn-outline-danger">servie</a></li>
+                    <li><a href="#contact"
+                            class="nav-link text-uppercase text-light fw-bolder btn btn-outline-danger">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home -->
+    <section id="home">
+        <div class="container">
+            <h1 class="text-capitalize text-white pt-5">city klinik</h1>
+        </div>
+    </section>
+
+    <!--  About -->
+    <section class="container mt-5" id="about">
+        <div class="text-center">
+            <h1 class="text-danger display-3 text-danger fw-bolder">About</h1>
+            <p>We are a medical clinic committed to providing the best medical services.</p>
+
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="servie" class="bg-info mt-5 p-3">
+        <div class="container">
+            <h1 class="text-danger display-3 text-danger fw-bolder text-center">Services</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Comprehensive Medical Checkup</h5>
+                            <p class="card-text">Get a thorough medical checkup to ensure your health and well-being.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Knee Injections</h5>
+                            <p class="card-text">Relieve knee pain with our expert injection services.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Travel and Children Vaccinations</h5>
+                            <p class="card-text">Protect yourself and your loved ones with our vaccination services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- contact -->
+    <section class="container mt-5" id="contact">
+        <div class="row">
+            <div class="col-12 col-ms-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <button class="btn btn-outline-primary mt-5">Appointment</button>
+                <h1 class="mt-3 text-capitalize text-danger fw-bolder">make an Appointment to visit our doctor</h1>
+                <p class=" fw-semibold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, sint quos
+                    corrupti repudiandae quia
+                    atque. Sequi totam unde molestiae saepe quo modi at, nulla consectetur, dolores, soluta ea
+                    voluptatibus
+                    consequatur?</p>
+                <div class="d-flex mt-3 bg-info">
+                    <div>
+                        <img src="card1 (2).jpg" alt="" class="rounded-circle img-fluid" style="width: 100px;">
+                    </div>
+                    <div>
+                        <p>call us now</p>
+                        <h6>+0 123456789</h6>
+                    </div>
+                </div>
+                <div class="d-flex mt-4 bg-info">
+                    <div>
+                        <img src="card1 (1).jpg" alt="" class="rounded-circle img-fluid" style="width: 100px;">
+                    </div>
+                    <div>
+                        <p>Mail Us Now</p>
+                        <h6>info@example.com</h6>
+                    </div>
+                </div>
+            </div>
+            <div id="div2" class="col-12 col-ms-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 ">
+                <form action="#">
+                    <div class="d-flex pt-3">
+                        <div>
+                            <input type="text" required placeholder="Your Name" class="form-control">
+                        </div>
+                        <div>
+                            <input type="email" required placeholder="Your Email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="d-flex pt-3">
+                        <div>
+                            <input type="text" required placeholder="Your Mobile" class="form-control">
+                        </div>
+                        <select class="form-control" style="width: 28vh;" required>
+                            <option>Choose Doctoer</option>
+                            <option>Choose Doctoer</option>
+                            <option>Choose Doctoer</option>
+                            <option>Choose Doctoer</option>
+                        </select>
+
+                    </div>
+
+                    <div class="d-flex pt-3">
+                        <div>
+                            <input type="datetime" required placeholder="Choose Date" class="form-control">
+                        </div>
+                        <div>
+                            <input type="datetime" required placeholder="Choose Date" class="form-control">
+                        </div>
+                    </div>
+                    <textarea class="form-control mt-3" required placeholder="textarea"
+                        style="height: 20vh;"></textarea>
+                    <button class="btn btn-primary form-control mt-3">Book</button>
+                </form>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- footer -->
+    <footer class="footer mt-3 bg-info">
+        <p class="text-white  text-center p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </footer>
+
+</body>
+
+</html>
